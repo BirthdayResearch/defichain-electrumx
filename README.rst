@@ -11,8 +11,9 @@ DeFiChain ElectrumX - Reimplementation of electrum-server
   :Language: Python (>= 3.8)
   :Original Author: Neil Booth
 
-This project is a fork of `spesmilo/electrumx <https://github.com/spesmilo/electrumx>`_.
-The original author dropped support for Bitcoin, which we intend to keep.
+This project is a fork of `spesmilo/electrumx <https://github.com/spesmilo/electrumx>`_
+with expanded features to work with DeFiChain. Refer to `defichain-electrum <https://github.com/BirthdayResearch/defichain-electrum>`_
+for integration.
 
 DeFiChain ElectrumX allows users to run their own DeFiChain Electrum server. It connects to your
 full node and indexes the blockchain, allowing efficient querying of the history and DeFiChain
@@ -22,5 +23,6 @@ of servers via peer discovery.
 Documentation
 =============
 
-See `readthedocs <https://electrumx-spesmilo.readthedocs.io/>`_.
+DeFiChain ElectrumX is using identical dependencies as upstream.
+See original documentation `readthedocs <https://electrumx-spesmilo.readthedocs.io/>`_ for setup detail.
 
