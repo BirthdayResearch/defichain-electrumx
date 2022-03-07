@@ -1529,7 +1529,7 @@ class DefiElectrumX(ElectrumX):
 
     async def tokens_subscribe(self):
         '''Fetch list of tokens from the chain.'''
-        tokens = await self.daemon_request('fetch_tokens', { "limit": 50000 })
+        tokens = await self.daemon_request('fetch_tokens', ({ 'limit': 50000 }))
         print(f'get_tokens: {tokens}')
         return tokens
 
